@@ -1,6 +1,5 @@
 /*
-    Question/task 
-
+ Question/task
 */
 
 //answer
