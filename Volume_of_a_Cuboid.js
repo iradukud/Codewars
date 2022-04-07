@@ -6,6 +6,6 @@ Bob needs a fast way to calculate the volume of a cuboid with three values: leng
 //function that returns the product of the inputted parameters (gives Volume of Cuboid)
 class Kata {
     static getVolumeOfCuboid(length, width, height) {
-        return length * width * height
+      return length*width*height
     }
-}
+  }
