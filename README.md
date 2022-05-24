@@ -6,7 +6,7 @@ A repository filled with codewars challenges (kata). Currently Ranked #1305 on t
 
 ## How It's Made:
 
-**Tech used:** <img src="https://camo.githubusercontent.com/30934920b46fd5b6874bf6ce5f9a3afd8ea0e5e4ed20ab9eda0450286ba7a138/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d7c266d6573736167653d4a41564153435249505426636f6c6f723d336337663564267374796c653d706c6173746963266c6f676f3d6a617661736372697074" data-canonical-src="https://img.shields.io/static/v1?label=|&amp;message=JAVASCRIPT&amp;color=3c7f5d&amp;style=plastic&amp;logo=javascript" style="max-width: 100%;">
+**Tech used:**   <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript">
 
 Everyday, the first thing I do is solve a Codewar!
 
