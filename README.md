@@ -2,7 +2,7 @@
 
 <img src="cw_rank.JPG" style="max-width: 100%"><img>
   
-A repository filled with codewars challenges (kata). Currently Ranked #1305 on the global leaderboard, Completed over 1000+ challenges and Push 5 solutions every week.
+A repository filled with codewars challenges (kata). Currently Ranked #12,385 on the global leaderboard, Completed over 1000+ challenges and pushed 5 solutions every week at minimum.
 
 ## How It's Made:
 
