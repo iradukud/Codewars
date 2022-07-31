@@ -1,0 +1,36 @@
+/*
+DESCRIPTION:
+You have to search all numbers from inclusive 1 to inclusive a given number x, that have the given digit d in it.
+The value of d will always be 0 - 9.
+The value of x will always be greater than 0.
+
+You have to return as an array
+
+the count of these numbers,
+their sum
+and their product.
+
+For example:
+x = 11
+d = 1
+->
+Numbers: 1, 10, 11
+Return: [3, 22, 110]
+
+If there are no numbers, which include the digit, return [0,0,0].
+
+Have fun coding it and please don't forget to vote and rank this kata! :-)
+
+I have created other katas. Have a look if you like coding and challenges.
+
+*/
+
+//Solution    
+function numbersWithDigitInside(x, d) {
+    //variable that holds the numbers that include d (range 1 to x)
+    const arr = Array.from({ length: x }, (_, i) => i + 1).filter(z => (z + '').includes(d))
+    //if their are no numbers in the array return [0,,0,0]
+    if (arr.length == 0) { return [0, 0, 0] }
+    //else return a array with the [element count, element sum, element prod]
+    return [arr.length, arr.reduce((sum, num) => sum + num, 0), arr.reduce((prod, num) => prod * num, 1)]
+}
