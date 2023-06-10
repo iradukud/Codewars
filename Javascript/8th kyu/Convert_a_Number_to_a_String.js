@@ -10,6 +10,5 @@
 
 //answer
 function numberToString(num) {
-    //Converts number to string via built in methods
-    return String(num)
-  }
+    return '' + num
+}
