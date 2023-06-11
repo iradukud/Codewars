@@ -3,12 +3,6 @@
 */
 
 //answer
-function boolToWord( bool ){
-    //if the boolean value is true return a yes string
-    if(bool){
-      return 'Yes'
-    // else return a No string
-    }else{
-     return 'No' 
-    }
-  }
+function boolToWord(bool) {
+  return bool ? 'Yes' : 'No'
+}
