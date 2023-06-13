@@ -6,12 +6,5 @@
 
 //answer
 function squareSum(numbers) {
-    //variable to keep count of total sum
-    var totalSum = 0;
-    //loop which adds the item squared to the sum 
-    for (i = 0; i < numbers.length; i++) {
-        totalSum += Math.pow(numbers[i], 2);
-    }
-    //returns total sum
-    return totalSum;
+    return numbers.reduce((sum, num) => sum += (num * num), 0)
 }
