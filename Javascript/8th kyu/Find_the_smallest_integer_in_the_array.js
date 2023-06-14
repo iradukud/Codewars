@@ -11,23 +11,6 @@
 //answer
 class SmallestIntegerFinder {
     findSmallestInt(args) {
-        //declare and set the biggest number holder to 0
-        let biggestInterger = 0
-        //for loop, which loops through array and stores highest value
-        for (let i = 0; i < args.length; i++) {
-            if (args[i] > biggestInterger) {
-                biggestInterger = args[i]
-            }
-        }
-        //declare and set the smallest number to the biggest number holder 
-        let smallestInterger = biggestInterger
-        //for loop, which loops through array and stores lowest value
-        for (let i = 0; i < args.length; i++) {
-            if (args[i] < smallestInterger) {
-                smallestInterger = args[i]
-            }
-        }
-        //returens the lowest value of the array  
-        return smallestInterger
+        return Math.min(...args)
     }
 }
