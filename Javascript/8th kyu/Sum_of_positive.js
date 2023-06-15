@@ -8,17 +8,6 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 //Answers
 function positiveSum(arr) {
-    //determine the length of the arrary passed in function
-    let arrLength = arr.length
-    //variable to return the sum of positive items in array
-    let sum=0
-    //loop which goes the length of the passed array
-    for(let i=0;i<arrLength;i++){
-      //condition to only add postive items 
-      if(arr[i]>0){
-      sum+=arr[i]
-      }
-    }
-    //returned sum of postive items
-    return sum
-  }
+  //return the sum of all the positive elements
+  return arr.reduce((accumulator, currentValue) => currentValue > 0 ? accumulator + currentValue : accumulator, 0)
+}
