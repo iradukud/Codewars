@@ -7,12 +7,5 @@
 
 //answer
 function repeatStr (n, s) {
-    //created a empty string 
-    let newString=''
-    //repeat "s" string "n" times in the new string 
-    for(let i=0;i<n;i++){
-      newString+= s      
-    }
-    //returned the created string
-    return newString
-  }
+  return s.repeat(n);
+}
